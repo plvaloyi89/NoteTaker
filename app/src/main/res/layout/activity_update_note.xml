@@ -15,7 +15,7 @@
         android:text="UPDATE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addNotes"
+        app:layout_constraintTop_toBottomOf="@+id/updateNotes"
         app:layout_constraintVertical_bias="0.012" />
 
     <Button
@@ -29,23 +29,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/update"
-        app:layout_constraintTop_toBottomOf="@+id/addNotes"
+        app:layout_constraintTop_toBottomOf="@+id/updateNotes"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/addNotes"
-        android:layout_width="406dp"
+        android:id="@+id/updateNotes"
+        android:layout_width="match_parent"
         android:layout_height="260dp"
         android:layout_marginTop="60dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        app:layout_constraintTop_toBottomOf="@+id/addNoteDate"
+        app:layout_constraintTop_toBottomOf="@+id/updateNotesDate"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="2dp" />
 
     <EditText
-        android:id="@+id/addNoteTitle"
+        android:id="@+id/updateNotesTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/addNoteDate"
+        android:id="@+id/updateNotesDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
@@ -68,5 +68,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addNoteTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/updateNotesTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

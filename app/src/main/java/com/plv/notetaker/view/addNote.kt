@@ -23,6 +23,7 @@ class addNote : AppCompatActivity() {
 
         findViewById<Button>(R.id.submit).setOnClickListener {
             insertNote()
+            onBackPressed()
         }
 
     }
